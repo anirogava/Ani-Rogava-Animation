@@ -1,0 +1,40 @@
+body{
+    background-image: url(../img/milkeyway.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.astronaut{
+    background-image: url(../img/astro.png);
+    height: 700px;
+    width: 700px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -50px;
+    animation: astro 40s infinite;
+    animation-direction: alternate;
+}
+.rocket{
+    background-image: url(../img/rocket.png);
+    height: 700px;
+    width: 700px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: rockets 50s infinite linear;
+    transform: rotate(180deg);
+    
+}
+
+
+
+
+@keyframes astro{
+    0%{ transform: translate(-30%, -30%);}
+
+}
+@keyframes rockets {
+    0%{transi}
+    
+
+}
