@@ -19,10 +19,11 @@ body{
     width: 700px;
     background-repeat: no-repeat;
     position: absolute;
-    top: 0;
-    left: 0;
-    animation: rockets 50s infinite linear;
+    top: -500px;
+    left: 700px;
+    animation: rockets 25s infinite linear;
     transform: rotate(180deg);
+
     
 }
 
@@ -34,7 +35,7 @@ body{
 
 }
 @keyframes rockets {
-    0%{transi}
+    0%{ transform: translate(100%, 100%);}
     
 
 }
